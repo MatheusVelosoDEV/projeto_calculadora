@@ -54,7 +54,7 @@ A suíte cobre soma, subtração, multiplicação, divisão exata, divisão com 
 
 ### Evidência dos testes
 
-A saída reproduzível está registrada como transcript abaixo. A captura de tela real do terminal ainda precisa ser adicionada em `images/testes/` antes da entrega.
+As capturas de tela da execução estão incluídas abaixo e também salvas em `images/testes/`.
 
 ## 7. Refatoração
 
@@ -73,7 +73,7 @@ Abra `docs/index.html` no navegador. A pasta `docs/` deste projeto contém a doc
 
 ### Evidência da documentação
 
-A atividade também solicita capturas de tela da saída dos testes e do JavaDoc. O transcript reproduzível dos testes está abaixo. As capturas de tela reais do terminal e da documentação aberta no navegador ainda precisam ser adicionadas em `images/testes/` e `images/javadoc/`.
+A atividade também solicita capturas de tela da saída dos testes e do JavaDoc. As capturas de tela dos testes estão incluídas na seção anterior. Falta apenas uma captura de `docs/index.html` aberto no navegador, que deve ser salva em `images/javadoc/`.
 
 ## 9. Versionamento e repositório
 
@@ -108,6 +108,7 @@ Branches locais: `main` (implementação inicial) e `Refatoracao` (versão refat
 [PASSOU] operação inválida | esperado=0 | obtido=0
 Resultado: 7/7 testes aprovados.
 ```
+
 
 
 
