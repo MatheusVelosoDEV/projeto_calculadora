@@ -8,8 +8,9 @@
 |---|---|
 | Projeto | Projeto Calculadora |
 | Contexto | FinançApp |
-| Aluno / RA | Preencher antes da entrega |
-| Curso / Disciplina / Professor | Preencher antes da entrega |
+| Aluno | Matheus Saraiva Veloso |
+| RA | 240651 |
+| Curso / Disciplina / Professor | Preencher os dados que faltarem antes da entrega |
 | Semestre | 2026.2 |
 
 ## 2. Visão geral e objetivo
@@ -78,7 +79,9 @@ A atividade também solicita capturas de tela da saída dos testes e do JavaDoc.
 
 Branches locais: `main` (implementação inicial) e `Refatoracao` (versão refatorada). O endereço fornecido na atividade (`https://github.com/dr-ohata/calculadora_refatoracao`) é o repositório de referência do modelo README, não o repositório remoto deste aluno.
 
-**Link do repositório do aluno:** adicionar após criar/publicar o repositório pessoal no GitHub.
+**Perfil GitHub do aluno:** [MatheusVelosoDEV](https://github.com/MatheusVelosoDEV)
+
+**Link do repositório deste projeto:** pendente de criação/publicação; o perfil fornecido não identifica um repositório da calculadora.
 
 ## 10. Requisitos atendidos
 
@@ -105,4 +108,5 @@ Branches locais: `main` (implementação inicial) e `Refatoracao` (versão refat
 [PASSOU] operação inválida | esperado=0 | obtido=0
 Resultado: 7/7 testes aprovados.
 ```
+
 
