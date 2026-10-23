@@ -1,0 +1,9 @@
+/out/
+*.class
+
+docs-site/
+docs-refatorada/
+docs-nova/
+docs-main-gen/
+work/
+
