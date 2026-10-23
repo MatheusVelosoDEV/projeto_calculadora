@@ -10,3 +10,6 @@ work/
 
 docs-gerada/
 docs-refatorada-final/
+
+.idea/
+*.iml
