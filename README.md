@@ -8,8 +8,9 @@
 |---|---|
 | Projeto | Projeto Calculadora |
 | Contexto | FinançApp |
-| Aluno / RA | Preencher antes da entrega |
-| Curso / Disciplina / Professor | Preencher antes da entrega |
+| Aluno | Matheus Saraiva Veloso |
+| RA | 240651 |
+| Curso / Disciplina / Professor | Preencher os dados que faltarem antes da entrega |
 | Semestre | 2026.2 |
 
 ## 2. Visão geral e objetivo
@@ -53,7 +54,7 @@ A suíte cobre soma, subtração, multiplicação, divisão exata, divisão com 
 
 ### Evidência dos testes
 
-A saída reproduzível do comando acima está registrada como texto no terminal; salve uma captura de tela em `images/testes/` antes da entrega, conforme solicitado na atividade.
+A saída reproduzível está registrada como transcript abaixo. A captura de tela real do terminal ainda precisa ser adicionada em `images/testes/` antes da entrega.
 
 ## 7. Refatoração
 
@@ -64,20 +65,23 @@ A branch `Refatoracao` contém a versão reorganizada, com operação de divisã
 Gere ou atualize a documentação HTML com:
 
 ```powershell
-javadoc -encoding UTF-8 -d docs-nova src/calculadora/Calculadora.java test/calculadora/TesteCalculadora.java`nCopy-Item docs-nova/* docs/ -Recurse -Force
+javadoc -encoding UTF-8 -d docs-gerada src/calculadora/Calculadora.java test/calculadora/TesteCalculadora.java
+Copy-Item docs-gerada/* docs/ -Recurse -Force
 ```
 
 Abra `docs/index.html` no navegador. A pasta `docs/` deste projeto contém a documentação gerada.
 
 ### Evidência da documentação
 
-Salve uma captura de `docs/index.html` aberto no navegador em `images/javadoc/` antes da entrega.
+A atividade também solicita capturas de tela da saída dos testes e do JavaDoc. O transcript reproduzível dos testes está abaixo. As capturas de tela reais do terminal e da documentação aberta no navegador ainda precisam ser adicionadas em `images/testes/` e `images/javadoc/`.
 
 ## 9. Versionamento e repositório
 
 Branches locais: `main` (implementação inicial) e `Refatoracao` (versão refatorada). O endereço fornecido na atividade (`https://github.com/dr-ohata/calculadora_refatoracao`) é o repositório de referência do modelo README, não o repositório remoto deste aluno.
 
-**Link do repositório do aluno:** adicionar após criar/publicar o repositório pessoal no GitHub.
+**Perfil GitHub do aluno:** [MatheusVelosoDEV](https://github.com/MatheusVelosoDEV)
+
+**Link do repositório deste projeto:** pendente de criação/publicação; o perfil fornecido não identifica um repositório da calculadora.
 
 ## 10. Requisitos atendidos
 
@@ -89,4 +93,20 @@ Branches locais: `main` (implementação inicial) e `Refatoracao` (versão refat
 | RNF02 | Testes automatizados reproduzíveis | Implementado |
 | RNF04 | JavaDoc HTML | Gerado em `docs/` |
 | RNF05 | Git e branches | Branches locais criadas |
+
+
+
+### Saída dos testes
+
+```text
+[PASSOU] soma | esperado=7 | obtido=7
+[PASSOU] subtração | esperado=6 | obtido=6
+[PASSOU] multiplicação | esperado=42 | obtido=42
+[PASSOU] divisão inteira | esperado=4 | obtido=4
+[PASSOU] divisão com resto | esperado=2 | obtido=2
+[PASSOU] divisão por zero | exceção=ArithmeticException
+[PASSOU] operação inválida | esperado=0 | obtido=0
+Resultado: 7/7 testes aprovados.
+```
+
 
