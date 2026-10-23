@@ -81,7 +81,7 @@ Branches locais: `main` (implementação inicial) e `Refatoracao` (versão refat
 
 **Perfil GitHub do aluno:** [MatheusVelosoDEV](https://github.com/MatheusVelosoDEV)
 
-**Link do repositório deste projeto:** pendente de criação/publicação; o perfil fornecido não identifica um repositório da calculadora.
+**Repositório GitHub:** [MatheusVelosoDEV/projeto_calculadora](https://github.com/MatheusVelosoDEV/projeto_calculadora)
 
 ## 10. Requisitos atendidos
 
@@ -108,5 +108,6 @@ Branches locais: `main` (implementação inicial) e `Refatoracao` (versão refat
 [PASSOU] operação inválida | esperado=0 | obtido=0
 Resultado: 7/7 testes aprovados.
 ```
+
 
 
