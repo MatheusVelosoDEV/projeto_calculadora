@@ -12,7 +12,9 @@ public final class TesteCalculadora {
 
     private TesteCalculadora() { }
 
-    /** Executa todos os casos de teste e encerra com erro se algum falhar. */
+    /** Executa todos os casos de teste e encerra com erro se algum falhar.
+     * @param args argumentos de linha de comando (não utilizados)
+     */
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
         verificar("soma", 7, calculadora.calc(3, 4, "+"));
@@ -47,5 +49,6 @@ public final class TesteCalculadora {
         verificar("operação inválida", 0, calculadora.calc(2, 2, "%"));
     }
 }
+
 
 
