@@ -73,7 +73,7 @@ Abra `docs/index.html` no navegador. A pasta `docs/` deste projeto contém a doc
 
 ### Evidência da documentação
 
-A atividade também solicita capturas de tela da saída dos testes e do JavaDoc. As capturas de tela dos testes estão incluídas na seção anterior. Falta apenas uma captura de `docs/index.html` aberto no navegador, que deve ser salva em `images/javadoc/`.
+A atividade também solicita uma captura de tela do JavaDoc. Falta uma captura de `docs/index.html` aberto no navegador, que deve ser salva em `images/javadoc/`.
 
 ## 9. Versionamento e repositório
 
@@ -108,6 +108,11 @@ Branches locais: `main` (implementação inicial) e `Refatoracao` (versão refat
 [PASSOU] operação inválida | esperado=0 | obtido=0
 Resultado: 7/7 testes aprovados.
 ```
+
+![Saída dos testes no terminal](images/testes/resultado-testes-terminal.png)
+
+![Execução dos testes no IntelliJ IDEA](images/testes/resultado-testes-intellij.png)
+
 
 
 
