@@ -73,7 +73,9 @@ Abra `docs/index.html` no navegador. A pasta `docs/` deste projeto contém a doc
 
 ### Evidência da documentação
 
-A atividade também solicita uma captura de tela do JavaDoc. Falta uma captura de `docs/index.html` aberto no navegador, que deve ser salva em `images/javadoc/`.
+A captura da documentação JavaDoc da classe `Calculadora` está salva em `images/javadoc/` e aparece abaixo.
+
+![JavaDoc da classe Calculadora](images/javadoc/javadoc-calculadora.png)
 
 ## 9. Versionamento e repositório
 
@@ -112,6 +114,7 @@ Resultado: 7/7 testes aprovados.
 ![Saída dos testes no terminal](images/testes/resultado-testes-terminal.png)
 
 ![Execução dos testes no IntelliJ IDEA](images/testes/resultado-testes-intellij.png)
+
 
 
 
