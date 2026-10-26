@@ -44,7 +44,7 @@ projeto_calculadora/
 
 ## 6. Compilar e executar os testes
 
-Requer JDK 24 (ou versão compatível). No PowerShell, a partir da raiz:
+Requer JDK 26(ou versão compatível). No PowerShell, a partir da raiz:
 
 ```powershell
 New-Item -ItemType Directory -Force out | Out-Null
