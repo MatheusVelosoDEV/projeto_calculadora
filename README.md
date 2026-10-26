@@ -10,7 +10,9 @@
 | Contexto | FinançApp |
 | Aluno | Matheus Saraiva Veloso |
 | RA | 240651 |
-| Curso / Disciplina / Professor | Preencher os dados que faltarem antes da entrega |
+| Curso | Análise e desenvolvimento de sistemas
+| Disciplina | UI/UX
+| Professor | Daniel Ohata
 | Semestre | 2026.2 |
 
 ## 2. Visão geral e objetivo
