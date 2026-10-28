@@ -25,7 +25,7 @@ Este projeto implementa em Java um módulo reutilizável de cálculos básicos p
 
 ## 4. Tecnologias
 
-- Java / JDK 24 e JavaDoc;
+- Java / JDK 26 e JavaDoc;
 - Git e GitHub;
 - testes executáveis em Java, usando verificações e asserções sem dependências externas.
 
